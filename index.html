@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/d75ad8793d.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>MDCM Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Navigation Links -->
+            <nav class="nav-bar">
+                <a href="#home"><h3 class="logo">MDCM</h3></a>
+                
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+
+                <!-- Navigation Icons (Small Screens) -->
+                <ul class="nav-icons">
+                    <li><a href="#home" class="active"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="#about"><i class="fa-solid fa-user"></i></a></li>
+                    <li><a href="#skills"><i class="fa-solid fa-cogs"></i></a></li>
+                    <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i></a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-envelope"></i></a></li>
+                </ul>
+
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+        
+        <section id="home">
+            <div class="home-text">
+                <h1 id="typing-text"></h1>
+                <p>I am Mark Daniel C. Magpantay<br> <span class="typed">Computer Engineer</span></p>
+        
+                <!-- Social & Resume Below the Text -->
+                <div class="social-container" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="social-media">
+                        <a href="https://github.com/Nielark" target="_blank">
+                            <i class="fa-brands fa-square-github fa-2xl"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mark-daniel-magpantay/" target="_blank">
+                            <i class="fa-brands fa-linkedin fa-2xl"></i>
+                        </a>
+                        <a href="mailto:markdanielcmagpantay@gmail.com" target="_blank">
+                            <i class="fa-solid fa-square-envelope fa-2xl"></i>
+                        </a>
+                        <a href="https://www.facebook.com/markdaniel.magpantay" target="_blank">
+                            <i class="fa-brands fa-square-facebook fa-2xl"></i>
+                        </a>
+                    </div>
+                    <a class="btn-download-resume" href="Files/Mark Daniel Magpantay Resume.pdf" target="_blank">Download CV</a>
+                </div>
+            </div>
+        
+            <!-- Image on the right side of the text -->
+            <div class="home-images" data-aos="fade-up" data-aos-duration="1000">
+                <img src="Images/My Picture/home picture.png" alt="" id="my-photo">
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">About Me</h2>
+        
+            <div class="about-container">
+                <div class="about-me objective" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                    <img src="Images/My Picture/about me picture.png" alt="My picture" id="about-photo">
+                    <p>Hello world! I am <strong>Mark Daniel C. Magpantay</strong>, a <strong>Computer Engineer</strong>, 
+                        with a passion for technology, software development, and lifelong learning. Throughout my academic journey, 
+                        I built a strong foundation in programming, software development, databases, and web technologies. 
+                        I am dedicated to continuously improving my skills and adapting to emerging technologies to keep up and 
+                        improve the quality of my work.
+                        <br><br>
+                        Feel free to reach out if you want to collaborate on a project or just want to chat!
+                    </p>
+                </div>
+        
+                <div class="about-me education" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                    <h3>Educational History</h3>
+                    <ul>
+                        <li>
+                            <div class="education-item">
+                                <p class="course">BS Computer Engineering</p>
+                                <p class="year">Graduated 2024</p>
+                            </div>
+                            <p class="school">Batangas State University The National Engineering University ARASOF - Nasugbu Campus</p>
+                        </li>
+                        <li>
+                            <div class="education-item">
+                                <p class="course">Senior High School</p>
+                                <p class="year">Graduated 2020</p>
+                            </div>
+                            <p class="school">STI College Balayan</p>
+                        </li>
+                        <li>
+                            <div class="education-item">
+                                <p class="course">High School</p>
+                                <p class="year">Graduated 2018</p>
+                            </div>
+                            <p class="school">Dr. Francisco L. Calingasan Memorial Colleges Foundation Inc.</p>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class="about-me experience" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                    <h3>Professional Experience</h3>
+                
+                    <div class="experience-item">
+                        <ul>
+                            <li>
+                                <div class="experience-header">
+                                    <p class="position">Information and Communication Technology Support Intern</p>
+                                    <p class="date">Feb. 2024 - Apr. 2023</p>
+                                </div>
+                                <p class="company">Batangas State University - The National Engineering University, ARASOF - Nasugbu Campus</p>
+                                <ul class="responsibilities">
+                                    <li>Participated in the inventory of school equipment, including computers, routers, and printers.</li>
+                                    <li>Assisted with the installation of internet infrastructure, including fiber optics, ethernet cables,
+                                        access points, and router configuration.</li>
+                                    <li>Performed printer setup, driver installation, and troubleshooting issues.</li>
+                                    <li>Conducted computer maintenance tasks such as system troubleshooting, cleaning, operating
+                                        system installations, computer upgrades, and software updates.</li>
+                                    <li>Provided on-site support to fellow students in the ICT lab by guiding them in computer usage and
+                                        addressing their inquiries.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="about-me certificate" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                    <h3>Certificates</h3>
+
+                    <div class="certificate-container">
+                        <div class="certificate-card">
+                            <img src="Images/Certificates/Foundational%20C%23%20with%20Microsoft%20Certificate.png" alt="Foundational C# with Microsoft">
+                            <div class="certificate-overlay">
+                                <h4>Skills Learned</h4>
+                                <div class="skills-learned">
+                                    <span class="skill-tag">HTML</span>
+                                    <span class="skill-tag">CSS</span>
+                                    <span class="skill-tag">JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certificate-card">
+                            <img src="Images/Certificates/COA Certificate.png" alt="Computer Architecture">
+                            <div class="certificate-overlay">
+                                <h4>Skills Learned</h4>
+                                <div class="skills-learned">
+                                    <span class="skill-tag">Hardware</span>
+                                    <span class="skill-tag">MIPS Instruction Set</span>
+                                    <span class="skill-tag">Assembly Language</span>
+                                    <span class="skill-tag">Processors</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="certificate-card">
+                            <img src="Images/Certificates/0223176189MM.png" alt="Organizational, Culture, Diversity, and Ethics">
+                            <div class="certificate-overlay">
+                                <h4>Skills Learned</h4>
+                                <div class="skills-learned">
+                                    <span class="skill-tag">Ethics</span>
+                                    <span class="skill-tag">Organizational Culture</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-me award" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                    <h3>Awards</h3>
+                    <div class="award-container">
+                        <div class="award-card">
+                            <img src="Images/Awards/C++ Programming Competition Elimination Round.jpg" alt="C++ Programming Competition Elimination Round Award">
+                        </div>  
+                        <div class="award-card">
+                            <img src="Images/Awards/C++ Programming Competition Final Round.jpg" alt="C++ Programming Competition Final Round Award">
+                        </div>
+                        <div class="award-card">
+                            <img src="Images/Awards/C Programming Competition.jpg" alt="C Programming Competition Award">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interest -->
+                <div class="about-me interest" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                    <h3>Interests</h3>
+                    <div class="interest-container">
+                        <div class="interest-card" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="100" data-aos-offset="200">
+                            <div class="indicator"></div>
+                            <img src="Images/Interest/coding.png" alt="Coding">
+                            <span>Programming</span>
+                            <audio src="Sounds/keyboard-153960-made-with-Voicemod.mp3"></audio>
+                        </div>
+                        <div class="interest-card" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" data-aos-offset="200">
+                            <div class="indicator"></div>
+                            <img src="Images/Interest/mobile_game.png" alt="Mobile Games">
+                            <span>Mobile Games</span>
+                            <audio src="Sounds/mobile-legends-sound-effects-made-with-Voicemod.mp3"></audio>
+                        </div>
+                        <div class="interest-card" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1000" data-aos-offset="200">
+                            <div class="indicator"></div>
+                            <img src="Images/Interest/video_player.png" alt="Movies">
+                            <span>Movies</sp>
+                            <audio src="Sounds/20-century-fox-made-with-Voicemod.mp3"></audio>
+                        </div>
+                        <div class="interest-card" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1500" data-aos-offset="200">
+                            <div class="indicator"></div>
+                            <img src="Images/Interest/anime.png" alt="Anime">
+                            <span>Anime</sp>
+                            <audio src="Sounds/dragon-ball-made-with-Voicemod.mp3"></audio>
+                        </div>
+                        <div class="interest-card" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="2000" data-aos-offset="200">
+                            <div class="indicator"></div>
+                            <img src="Images/Interest/manga.png" alt="Manga">
+                            <span>Manga</s>
+                            <audio src="Sounds/book-page-flip-sound-effect-made-with-Voicemod.mp3"></audio>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">Skills</h2>
+        
+            <div class="skills-container">
+                <!-- Programming Languages -->
+                <div class="skills-category" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="C">
+                        </div>
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++">
+                        </div>
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="C#">
+                        </div>
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java">
+                        </div>
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" alt="Python">
+                        </div>
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" alt="Kotlin">
+                        </div>
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" alt="Go">
+                        </div>
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualbasic/visualbasic-original.svg" alt="Visual Basic">
+                        </div>
+                    </div>
+                    <div class="hidden">
+                    </div>
+                </div>
+        
+                <!-- Web Development -->
+                <div class="skills-category" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                    <h3>Web Development</h3>
+                    <div class="skills-grid">
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML">
+                        </div>
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS">
+                        </div>
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript">
+                        </div>
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP">
+                        </div>
+                    </div>
+                    <div class="hidden"></div>
+                </div>
+        
+                <!-- Other Tools & Databases -->
+                <div class="skills-category" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                    <h3>Databases</h3>
+                    <div class="skills-grid">
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" alt="MySQL">
+                        </div>
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgrSQL">
+                        </div>
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mariadb/mariadb-original-wordmark.svg" alt="MariaDB"/>
+                        </div>
+                    </div>
+                    <div class="hidden"></div>
+                </div>
+
+                <!-- Version Conrol -->
+                <div class="skills-category" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                    <h3>Version Control</h3>
+                    <div class="skills-grid">
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git">
+                        </div>
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Github">
+                        </div>
+                    </div>
+                    <div class="hidden"></div>
+                </div>
+
+                <!-- Embedded Systems -->
+                <div class="skills-category" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                    <h3>Embedded System</h3>
+                    <div class="skills-grid">
+                        <div class="skill">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/arduino/arduino-original.svg" alt="Arduino">
+                        </div>
+                    </div>
+                    <div class="hidden"></div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skills-category" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                    <h3>Soft Skills</h3>
+                    <div class="soft-skills-grid">
+                        <div class="skill">
+                            <p>Problem Solving</p>
+                        </div>
+                        <div class="skill">
+                            <p>Attention to Details</p>
+                        </div>
+                        <div class="skill">
+                            <p>Adaptability</p>
+                        </div>
+                        <div class="skill">
+                            <p>Teamwork or Collaboration</p>
+                        </div>
+                    </div>
+                    <div class="hidden"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">Portfolio</h2>
+            <div class="projects">
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                    <img src="Images/Projects/Password_Generator_Image.png" alt="Project 1" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Web Password Generator</h3>
+                        <p class="project-description">
+                            A password generator that can customize the password combination such as special characters, numbers, lower and uppercase letters, and password length.
+                        </p>
+                        <a class="navigate-website" href="https://nielark.github.io/Web-Password-Generator/" target="_blank">Navigate to website</a>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <a href="https://github.com/Nielark/Web-Password-Generator" target="_blank" class="github-link">
+                            <i class="fa-brands fa-github fa-xl"></i>
+                            <span>Github</span>
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                    <img src="Images/Projects/Password_Generator_Image_Java.png" alt="Project 2" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Password Generator</h3>
+                        <p class="project-description">A password generator using WinForm that can customize the password combination such as special characters, numbers, lower and uppercase letters, and password length.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Jframe</span>
+                        </div>
+                        <a href="https://github.com/Nielark/Password-Generator-GUI" target="_blank" class="github-link">
+                            <i class="fa-brands fa-github fa-xl"></i>
+                            <span>Github</span>
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                    <img src="Images/Projects/Quizzerium_image.png" alt="Project 3" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Quizzerium</h3>
+                        <p class="project-description">A dynamic quiz game application built with C#.NET, featuring a custom UI, sound effects, and dynamic content generation.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">C.Net</span>
+                            <span class="tech-tag">Window Form</span>
+                        </div>
+                        <a href="https://github.com/Nielark/Quizzerium-Quiz-Game" target="_blank" class="github-link">
+                            <i class="fa-brands fa-github fa-xl"></i>
+                            <span>Github</span>
+                        </a>
+                    </div>
+                </div>
+        
+                <div class="project-card" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                    <img src="Images/Projects/Music Player Image.png" alt="Project 4" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Music Player</h3>
+                        <p class="project-description">A user-friendly music player that allows user to easily browse and play mp3 stored on desktop or laptop. Features include dynamic song display, intuitive playback controls, and responsive design.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">C#</span>
+                            <span class="tech-tag">C#.Net</span>
+                            <span class="tech-tag">OOP</span>
+                            <span class="tech-tag">Window Form</span>
+                            <span class="tech-tag">LINQ</span>
+                        </div>
+                        <a href="https://github.com/Nielark/Music-Player" target="_blank" class="github-link">
+                            <i class="fa-brands fa-github fa-xl"></i>
+                            <span>Github</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">Contact me</h2>
+            
+            <div class="contact-container" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200">
+                <div class="contact-accounts">
+                    <a href="https://github.com/Nielark" target="_blank">
+                        <i class="fa-brands fa-square-github fa-2xl"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mark-daniel-magpantay/" target="_blank">
+                        <i class="fa-brands fa-linkedin fa-2xl"></i>
+                    </a>
+                    <a href="mailto:markdanielcmagpantay@gmail.com" target="_blank">
+                        <i class="fa-solid fa-square-envelope fa-2xl"></i>
+                    </a>
+                    <a href="https://www.facebook.com/markdaniel.magpantay" target="_blank">
+                        <i class="fa-brands fa-square-facebook fa-2xl"></i>
+                    </a>
+                </div>
+                
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" autocomplete="off" required>
+                    <input type="email" name="email" placeholder="Your Email" autocomplete="off" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+
+            
+        </section>
+
+        <!-- Certificate Modal -->
+        <div class="certificate-modal">
+            <span class="close-btn">&times;</span>
+            <img src="" alt="" class="modal-image">
+        </div>
+
+        <div class="chatbot">
+            <i class="fa-solid fa-robot fa-2xl"></i>
+            <div class="chatbot-prompt">Hi there! Need help?</div>
+        </div>
+
+        <footer>
+            <p>&copy; <span id="date"></span> Mark Daniel C. Magpantay. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
